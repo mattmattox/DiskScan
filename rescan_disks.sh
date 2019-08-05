@@ -8,7 +8,7 @@ done
 
 echo ""
 
-echo "Scan for size change..."
+echo "Scan for disk size change..."
 for disk in $(ls /sys/class/block/ | grep sd | grep -v '[0-9]')
 do
         echo "$disk"
